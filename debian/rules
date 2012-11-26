@@ -14,4 +14,4 @@
 override_dh_auto_install:
 	dh_installdirs
 	install mdk3 $(CURDIR)/debian/mdk3/usr/bin/
-	install kali-mdk3.desktop $(CURDIR)/debian/mdk3/usr/share/applications/
+	install debian/kali-mdk3.desktop $(CURDIR)/debian/mdk3/usr/share/applications/
