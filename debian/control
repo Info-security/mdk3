@@ -1,15 +1,19 @@
 Source: mdk3
-Section: unknown
+Section: net
 Priority: extra
-Maintainer: dookie <dookie@kali.localdomain>
+Maintainer: dookie <dookie@kali.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/mdk3.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/mdk3.git;a=summary
+Homepage: http://homepages.tu-darmstadt.de/~p_larbig/wlan/
+Vcs-Git: ssh://git@git.kali.org/packages/mdk3.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/mdk3.git;a=summary
 
 Package: mdk3
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${shlibs:Depends}, ${misc:Depends}, aircrack-ng
+Description: Wireless attack tool for IEEE 802.11 networks
+ MDK is a proof-of-concept tool to exploit common 
+ IEEE 802.11 protocol weaknesses.
+ IMPORTANT: It is your responsibility to make sure you have 
+ permission from the
+ network owner before running MDK against it.
