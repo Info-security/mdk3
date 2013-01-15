@@ -1,3 +1,9 @@
+mdk3 (6.0-1kali5) kali; urgency=low
+
+  * Removed reference to desktop file
+
+ -- Mati Aharoni <muts@kali.org>  Tue, 15 Jan 2013 13:53:49 -0500
+
 mdk3 (6.0-1kali4) kali; urgency=low
 
   * Removed desktop file
