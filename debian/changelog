@@ -1,3 +1,9 @@
+mdk3 (6.0-1kali6) kali-dev; urgency=medium
+
+  * Add a debian/watch file
+
+ -- Sophie Brun <sophie@freexian.com>  Fri, 10 Jul 2015 13:57:40 +0200
+
 mdk3 (6.0-1kali5) kali; urgency=low
 
   * Removed reference to desktop file

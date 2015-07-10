@@ -1,0 +1,2 @@
+version=3
+http://aspj.aircrack-ng.org/index.html (?:.*/)?mdk3-v(.*)\.tar\.bz2
